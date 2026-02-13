@@ -1,0 +1,12 @@
+.spotify-music {
+  display: flex;
+  justify-content: center;
+  margin: 40px 0;
+}
+
+.spotify-music iframe {
+  width: 90%;
+  max-width: 400px;
+  height: 80px;
+  border-radius: 12px;
+}
