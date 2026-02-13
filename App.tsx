@@ -53,7 +53,6 @@ const App: React.FC = () => {
       <AudioControl />
       
       {/*<SpotifyEmbed />*/}
-
       {/* Main Content */}
       <main className="relative z-10 w-full max-w-lg mx-auto overflow-x-hidden">
         <Hero />
