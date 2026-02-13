@@ -43,7 +43,7 @@ const AudioControl: React.FC = () => {
         className="hidden"
       >
         <source
-          src="/images/val-song.mp4"
+          src={ValSong}
           type="audio/mp4"
         />
       </audio>
