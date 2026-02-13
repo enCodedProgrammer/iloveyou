@@ -20,7 +20,7 @@ const Hero: React.FC = () => {
           <motion.h1 
             className="font-serif text-4xl md:text-5xl text-[#3E2723] leading-tight"
           >
-            November, 2025 - <br />
+            November, 2025 <br />
             <span className="italic text-[#800020]">The day our stars aligned perfectly🌻</span>
           </motion.h1>
           <motion.p 
@@ -38,7 +38,7 @@ const Hero: React.FC = () => {
           whileHover={{ scale: 1.05 }}
           whileTap={{ scale: 0.95 }}
           onClick={() => window.scrollTo({ top: window.innerHeight, behavior: 'smooth' })}
-          className="bg-[#800020] text-[#F8F5F0] px-8 py-3 rounded-full text-sm tracking-widest uppercase transition-shadow shadow-lg hover:shadow-rose-900/20"
+          className="bg-[#800020] text-[#F8F5F0] px-6 py-3 rounded-full text-sm tracking-widest uppercase transition-shadow shadow-lg hover:shadow-rose-900/20"
         >
           Scroll Through Our Story
         </motion.button>

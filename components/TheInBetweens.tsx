@@ -4,14 +4,14 @@ import { motion } from 'framer-motion';
 
 const TheInBetweens: React.FC = () => {
   return (
-    <section className="space-y-8">
+    <section className="space-y-4">
       <motion.div
         initial={{ opacity: 0, x: -20 }}
         whileInView={{ opacity: 1, x: 0 }}
         viewport={{ once: true }}
         transition={{ duration: 1 }}
       >
-        <h2 className="font-serif text-3xl text-[#800020] mb-6">And in the in betweens we got used to each others company❤️</h2>
+        <h2 className="font-serif text-2xl text-[#800020] mb-6">And in the in betweens we got used to each others company❤️</h2>
         <div className="space-y-4 text-lg leading-relaxed text-[#3E2723]/90">
           <p>Endless streams of conversations</p>
           <p>Deep conversations that got us to know and understand one another</p>

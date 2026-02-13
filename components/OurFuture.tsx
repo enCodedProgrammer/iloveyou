@@ -4,7 +4,7 @@ import { motion } from 'framer-motion';
 
 const OurFuture: React.FC = () => {
   return (
-    <section className="space-y-12">
+    <section className="space-y-8">
       <motion.div
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}

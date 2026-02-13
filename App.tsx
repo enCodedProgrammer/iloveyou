@@ -58,7 +58,7 @@ const App: React.FC = () => {
       <main className="relative z-10 w-full max-w-lg mx-auto overflow-x-hidden">
         <Hero />
         
-        <div className="px-6 space-y-32 py-20 pb-40">
+        <div className="px-6 space-y-14 py-20 pb-16">
           <HowItStarted />
         <HeroVideo />
 
@@ -70,7 +70,7 @@ const App: React.FC = () => {
           <FinalLetter />
           
           {/* Footer Counter */}
-          <footer className="text-center py-10 pt-20">
+          <footer className="text-center py-2 pt-2">
             <motion.div
               initial={{ opacity: 0 }}
               whileInView={{ opacity: 1 }}

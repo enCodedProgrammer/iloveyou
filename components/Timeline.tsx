@@ -21,7 +21,7 @@ const TimelineItem = ({ month, title, details, index }: { month: string, title: 
 
 const Timeline: React.FC = () => {
   return (
-    <section className="space-y-12">
+    <section className="space-y-8">
       <motion.h2 
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}

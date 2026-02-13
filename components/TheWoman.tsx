@@ -25,7 +25,7 @@ const TheWoman: React.FC = () => {
   ];
 
   return (
-    <section className="space-y-10">
+    <section className="space-y-6">
       <motion.h2 
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}

@@ -1,12 +1,13 @@
 import React from "react";
 import "./HeroVideo.css";
+import Video from "../images/bg-video.mp4"
 
 const HeroVideo = () => {
   return (
     <section className="hero-video">
       <video
         className="background-video"
-        src="/images/bg-video.mp4"
+        src={Video}
         autoPlay
         loop
         muted

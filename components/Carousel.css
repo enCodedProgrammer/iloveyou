@@ -36,7 +36,7 @@
 
 .carousel-item img {
   width: 100%;
-  height: 480px; /* choose a consistent height */
+  height: 420px; /* choose a consistent height */
   object-fit: cover; /* maintains aspect ratio, crops overflow */
   border-radius: 15px;
 }

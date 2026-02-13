@@ -1,13 +1,19 @@
 import React from "react"
 import "./Carousel.css"
+import sl1 from "../images/sl1.jpeg"
+import sl2 from "../images/sl2.jpeg"
+import sl3 from "../images/sl3.jpeg"
+import sl4 from "../images/sl4.jpeg"
+import sl5 from "../images/sl5.jpeg"
+
 
 
 const images = [
-  "/images/sl1.jpeg",
-  "/images/sl2.jpeg",
-  "/images/sl3.jpeg",
-  "/images/sl4.jpeg",
-  "/images/sl5.jpeg"
+  sl1,
+  sl2,
+  sl3,
+  sl4,
+  sl5
 ];
 
 
