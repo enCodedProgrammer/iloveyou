@@ -2,7 +2,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 
-const HowItStarted: React.FC = () => {
+const TheInBetweens: React.FC = () => {
   return (
     <section className="space-y-8">
       <motion.div
@@ -29,4 +29,4 @@ const HowItStarted: React.FC = () => {
   );
 };
 
-export default HowItStarted;
+export default TheInBetweens;

@@ -3,19 +3,20 @@ import React, { useState, useEffect, useRef } from 'react';
 import { motion, AnimatePresence, useScroll, useSpring } from 'framer-motion';
 import { Heart, Music, Music2, VolumeX, Volume2, ChevronDown } from 'lucide-react';
 
+
 // Components
 import Hero from './components/Hero';
 import HowItStarted from './components/HowItStarted';
 import TheInBetweens from './components/TheInBetweens';
 import  InBetweenScroll from "./components/InBetweenScroll"
 import HeroVideo from './components/HeroVideo';
-import Timeline from './components/Timeline';
+import Timelines from './components/Timeline';
 import TheWoman from './components/TheWoman';
 import OurFuture from './components/OurFuture';
 import FinalLetter from './components/FinalLetter';
 import BackgroundParticles from './components/BackgroundParticles';
 import AudioControl from './components/AudioControl';
-import SpotifyEmbed from './components/spotifyEmbed';
+import SpotifyEmbed from './components/SpotifyEmbed';
 
 const App: React.FC = () => {
   const [daysSince, setDaysSince] = useState(0);
@@ -63,7 +64,7 @@ const App: React.FC = () => {
 
           <InBetweenScroll />
           <TheInBetweens />
-          <Timeline />
+          <Timelines />
           <TheWoman />
           <OurFuture />
           <FinalLetter />
